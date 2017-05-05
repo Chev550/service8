@@ -1,0 +1,128 @@
+.gray {
+	color: gray;
+}
+.center {
+	text-align: center;
+}
+
+
+
+.clearance {
+	margin-top: 20px;
+}
+
+
+.contest,
+.file {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	vertical-align: top;
+}
+.contest:hover,
+.file:hover {
+	background-color: #e6e6e6;
+	border-color: #adadad;
+	text-decoration: none;
+}
+.contest {
+	width: 140px;
+}
+.file {
+	width: 100px;
+}
+
+
+.version {
+	display: inline-block;
+	text-align: center;
+	margin: 1em;
+}
+.version h3 {
+	margin: 0.2em;
+}
+
+
+footer {
+	color: gray;
+	font-size: 12px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+
+svg {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+path {
+	fill: gray;
+}
+a:hover path {
+	fill: #333;
+}
+
+.lispace li {
+	margin-top: 0.5em;
+}
+
+.tag-cloud {
+	margin: 0.25em 0;
+}
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+	height: 400px;
+	margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 400px;
+	background-color: #777;
+}
+
+.house {
+	margin-bottom: 0;
+}
+
+
+
+/* contact
+-------------------------------------------------- */
+.contact input, 
+.contact textarea {
+	border: 0;
+	border-bottom: 1px dotted #ccc;
+	color: #ccc;
+	width: 100%;
+	display: block;
+	margin: 1em 0;
+}
+.contact textarea {
+	height: 12em;
+}
+.contact input:focus,
+.contact textarea:focus {
+	outline: none;
+}
+
+
+/* submission
+-------------------------------------------------- */
+
+.submission li {
+	margin-top: 1em;
+}

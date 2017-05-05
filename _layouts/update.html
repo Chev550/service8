@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">{{ page.title }}</h3>
+	</div>
+	
+	<div class="list-group-item">
+		<p class="gray">{{ page.date | date_to_string }}</p>
+		{{ content }}
+	</div>
+
+	<div class="list-group-item">
+		{% include html/pages.html %}
+	</div>
+</div>

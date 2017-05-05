@@ -1,0 +1,107 @@
+---
+layout: default
+title: "Submission"
+---
+
+
+	<div class="list-group">
+		<div class="list-group-item active">
+			<h3 class="panel-title">Design Development Submission Instruction</h3>
+		</div>
+
+
+		<div class="list-group-item">
+			<p>Design Development submission is due on <code>18 Nov 2016</code>. You may submit your documents via either <a href="#baidupan">百度网盘</a> or <a href="#dropbox">Dropbox</a>.  Please refer to the following detailed instruction.</p>
+
+			<!-- 百度网盘 -->
+			<a name="baidupan"></a><hr>
+			<h4>百度网盘</h4>
+			<ol class="submission">
+				<li>登陆百度网盘（<a href="https://pan.baidu.com" target="_blank">https://pan.baidu.com</a>），新建文件夹并命名为<code>Team XXX Design Development Submission</code>（将XXX替换为赛队名称）。</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_6.png">
+
+				<li>将所有Design Development文件上传至所新建的文件夹中。</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_7.png">
+
+				<li>将该文件夹分享给SDC组委会。</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_8.png">
+
+				<li>创建私密链接。</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_9.png">
+
+				<li>将链接地址和提取密码发送至<code>support@sdchina.org.cn</code>（也可通过邮箱发送）。</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_10.png">
+
+				<form class="contact" action="https://formspree.io/support@sdchina.org.cn" method="POST">
+					<input type="text" name="Link" value="链接地址" onfocus="onFocus(this)" onblur="onBlur(this)">
+					<input type="text" name="Code" value="提取密码" onfocus="onFocus(this)" onblur="onBlur(this)">
+					<input type="hidden" name="_next" value="{{ site.baseurl }}/pages/sent.html" />
+					Team: 
+					<select name="Team">
+						<option>Select team</option>
+						{% for team in site.teams %}
+						<option>{{ team.name }}</option>
+						{% endfor %}
+					</select>
+					<button type="submit" class="btn btn-sm btn-primary">Submit</button>
+				</form>
+			</ol>
+
+			<!-- dropbox -->
+			<a name="dropbox"></a><hr>
+			<h4>Dropbox</h4>
+			<ol class="submission">
+				<li>Log in to your Dropbox account (<a href="https://www.dropbox.com" target="_blank">https://www.dropbox.com</a>). Creat a new folder named <code>Team XXX Design Development Submission</code> (replace XXX with your team name).</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_1.png">
+
+				<li>Upload all your Design Development documents into the folder you just created.</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_2.png">
+
+				<li>Share your folder with the SDC Organizing Committee.</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_3.png">
+
+				<li>Input email address <code>support@sdchina.org.cn</code> and optional message. Click the <code>Share</code> button.</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_4.png">
+
+				<li>Done!</li>
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/submission_5.png">
+			</ol>
+		</div>
+	</div>
+
+
+
+<!--============================= Checklist ================================-->
+<!--div class="col-sm-4">
+	<div class="list-group">
+		<div class="list-group-item active">
+			<h3 class="panel-title">Submission Status</h3>
+		</div>
+
+
+		<div class="list-group-item">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Team</th>
+						<th>Received</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for team in site.teams %}
+					<tr>
+						<td>{{ team.name }}</td>
+						<td>
+							{% if team.dd %}
+							<input type="radio" checked> <code>{{ team.dd }}</code>
+							{% else %}
+							No
+							{% endif %}
+						</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div-->

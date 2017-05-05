@@ -1,0 +1,67 @@
+<header>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="{{ site.baseurl }}/">Team Service Center</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Competition <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="{{ site.baseurl }}/pages/competition/calendar.html">Calendar</a></li>
+							<li><a href="{{ site.baseurl }}/pages/competition/teams.html">Teams</a></li>
+							<li><a href="{{ site.baseurl }}/pages/competition/contests.html">Contests</a></li>
+							<li><a href="{{ site.baseurl }}/pages/competition/rules.html">Rules</a></li>
+						</ul>
+					</li>
+
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Workshop <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="dropdown-header">January 13, 2017</li>
+							<li><a href="{{ site.baseurl }}/pages/workshop/agenda2.html">Agenda</a></li>
+							<li><a href="{{ site.baseurl }}/pages/workshop/talk.html">SDC Talk</a></li>
+							<li><a href="{{ site.baseurl }}/pages/workshop/resource2.html">Training Materials</a></li>
+							
+							<li class="divider"></li>
+							<li class="dropdown-header">July 27, 2016</li>
+							<li><a href="{{ site.baseurl }}/pages/workshop/resource1.html">Training Materials</a></li>
+						</ul>
+					</li>
+
+
+					<li class="{% if page.url contains 'downloads' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/downloads.html">Downloads</a></li>
+
+					
+					<li class="{% if page.url contains 'questions' %}active{% endif %}"><a href="{{ site.baseurl }}/questions/">Q&A</a></li>
+
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Submission <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="{{ site.baseurl }}/pages/submission/due_dates.html">Due Dates</a></li>
+
+							<li class="divider"></li>
+							<li><a href="{{ site.baseurl }}/pages/submission/submission_dd.html">Design Development</a></li>
+							<li><a href="{{ site.baseurl }}/pages/submission/submission_sm.html">Scale Model</a></li>
+						</ul>
+					</li>
+
+
+					<li class="{% if page.url contains 'contacts' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/contacts.html">Contact</a></li>
+					<!--li class="{% if page.url contains 'resources' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/resources.html">Resources</a></li-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--/.nav-collapse -->
+</header>

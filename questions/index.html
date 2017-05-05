@@ -1,0 +1,64 @@
+---
+layout: default
+title: "Q&A"
+---
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Q&A</h3>
+	</div>
+
+
+	<div class="list-group-item">
+		<form class="contact" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
+			<textarea name="Question" value="Submit a question/request..." onfocus="onFocus(this)" onblur="onBlur(this)">Submit a question/request...</textarea>
+			
+			From: 
+			<select name="Team">
+				<option>Select team</option>
+				{% for team in site.teams %}
+				<option>{{ team.name }}</option>
+				{% endfor %}
+			</select>
+			<button type="submit" class="btn btn-sm btn-primary">Submit</button>
+		</form>
+	</div>
+
+
+
+	{% for post in site.categories.questions %}
+	<div class="list-group-item">
+		<span class="gray">{{ post.date | date_to_string }}</span>
+		<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+		<!--p>{{ post.content | strip_html | truncatewords:50 }}</p-->
+		<p>{% include html/post_tags.html %}</p>
+	</div>
+	{% endfor %}
+
+
+
+	<!--div class="list-group-item">
+		{% if paginator.total_pages > 1 %}
+		<div>
+			{% if paginator.previous_page %}
+			<a class="btn btn-xs btn-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+			{% endif %}
+
+			{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+			<span class="label label-default">{{ page }}</span>
+			{% elsif page == 1 %}
+			<a class="btn btn-xs btn-default" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			{% else %}
+			<a class="btn btn-xs btn-default" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			{% endif %}
+			{% endfor %}
+
+			{% if paginator.next_page %}
+			<a class="btn btn-xs btn-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+			{% endif %}
+		</div>
+		{% endif %}
+	</div-->
+</div>

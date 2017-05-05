@@ -1,0 +1,89 @@
+<!--========================== Updates ================================-->
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Updates</h3>
+	</div>
+
+	<div class="list-group-item">
+		<p class="gray">
+			04 May 2017
+			<span class="label label-info">New</span>
+		</p>
+		The most updated CAD files for competition site masterplan, water and electric plans are available for <a href="{{ site.baseurl }}/pages/downloads.html">downloading</a>. Check them out!
+	</div>
+</div>
+
+
+<!--========================== Recent Dues ================================-->
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Quick Enquiry</h3>
+	</div>
+
+	<div class="list-group-item">
+		<form class="contact" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
+			<input type="text" name="Name" value="Your Name" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<input type="email" name="Email" value="Your Email" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<input type="text" name="Subject" value="Enquiry Subject" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<textarea name="Message" value="Message" onfocus="onFocus(this)" onblur="onBlur(this)">Message</textarea>
+			<button type="submit" class="btn btn-sm btn-primary">Send</button>
+		</form>
+	</div>
+</div>
+
+
+
+<!--========================== Recent Dues ================================-->
+
+<!--div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Recent Dues</h3>
+	</div>
+
+	<div class="list-group-item">
+		<p><code>12 Dec 2016</code> House Description [<a href="{{ site.baseurl }}/assets/doc/2016-11-07-appendix-2.docx" target="_blank">Template</a>], 5 Renderings</p>
+		<p><code>16 Dec 2016</code> Health and Safety Plan [<a href="{{ site.baseurl }}/assets/doc/Health_and_Safety_Plan_Template.pdf" target="_blank">Template</a>], SketchUp Model</p>
+		<p><code>31 Dec 2016</code> Scale Model</p>
+		<p><a class="btn btn-xs btn-primary" href="{{ site.baseurl }}/updates/2016/09/14/deliverables-due-date.html">Deliverable Due Dates</a> are periodically updating.</p>
+	</div>
+</div-->
+
+
+<!--========================== News ================================-->
+
+
+<!--div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">News</h3>
+	</div>
+
+	{% for post in site.categories.news limit:5 %}
+	<div class="list-group-item">
+		<p class="gray">{{ post.date | date_to_string }}</p>
+		<p>{{ post.content }}</p>
+		{% if post.img %}
+		<a href="{{ site.baseurl }}/assets/img/news/{{ post.img }}_.jpg" target="_blank"><img src="{{ site.baseurl }}/assets/img/news/{{ post.img }}.jpg" class="img-thumbnail"></a>
+		{% endif %}
+	</div>
+	{% endfor %}
+</div-->
+
+
+<!--========================== Contact ================================-->
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Contact</h3>
+	</div>
+
+	<div class="list-group-item center">
+		<a class="btn btn-sm btn-success" href="mailto:support@sdchina.org.cn">support@sdchina.org.cn</a>
+	</div>
+
+	<div class="list-group-item">
+		<strong>Yvonne Li</strong>, Team Manager<br>
+		Email: <a href="mailto:yvonne.li@sdchina.org.cn">yvonne.li@sdchina.org.cn</a>
+	</div>
+</div>

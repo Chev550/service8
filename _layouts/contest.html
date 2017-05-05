@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<select class="pull-right" onchange="self.location.href=options[selectedIndex].value">
+			<option>- Contest Criteria -</option>
+			<hr>
+			{% for post in site.categories.contests %}
+			<option value="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</option>
+			{% endfor %}
+		</select>
+
+		<h3 class="panel-title">{{ page.title }} Contest (100 points)</h3>
+	</div>
+
+	<!--div class="list-group-item" style="background: url({{ site.baseurl }}/assets/img/img_architecture.jpg) center center; background-size: cover; height: 300px;"></div-->
+
+	<div class="list-group-item">
+		{{ content }}
+	</div>
+
+	<div class="list-group-item">
+		{% include html/pages.html %}
+	</div>
+</div>

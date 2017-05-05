@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="10-1. Energy Balance (80 points)">
+	<title>SDC 2018 | 10. Energy</title>
+	
+
+	<!-- ====================== Bootstrap core css ========================= -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
+	<!-- Bootstrap theme -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-theme.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+
+
+
+	<!-- ================== Bootstrap core JavaScript ==================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!--script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script-->
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+	<script src="/assets/js/jquery-1.11.3.js"></script>
+	<!-- Bootstrap core js -->
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<!-- Custom js -->
+	<script src="/assets/js/basic.js"></script>
+</head>
+
+</head>
+
+<body>
+	<div class="container clearance">
+		<header>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Team Service Center</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Competition <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/pages/competition/calendar.html">Calendar</a></li>
+							<li><a href="/pages/competition/teams.html">Teams</a></li>
+							<li><a href="/pages/competition/contests.html">Contests</a></li>
+							<li><a href="/pages/competition/rules.html">Rules</a></li>
+						</ul>
+					</li>
+
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Workshop <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="dropdown-header">January 13, 2017</li>
+							<li><a href="/pages/workshop/agenda2.html">Agenda</a></li>
+							<li><a href="/pages/workshop/talk.html">SDC Talk</a></li>
+							<li><a href="/pages/workshop/resource2.html">Training Materials</a></li>
+							
+							<li class="divider"></li>
+							<li class="dropdown-header">July 27, 2016</li>
+							<li><a href="/pages/workshop/resource1.html">Training Materials</a></li>
+						</ul>
+					</li>
+
+
+					<li class=""><a href="/pages/downloads.html">Downloads</a></li>
+
+					
+					<li class=""><a href="/questions/">Q&A</a></li>
+
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Submission <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/pages/submission/due_dates.html">Due Dates</a></li>
+
+							<li class="divider"></li>
+							<li><a href="/pages/submission/submission_dd.html">Design Development</a></li>
+							<li><a href="/pages/submission/submission_sm.html">Scale Model</a></li>
+						</ul>
+					</li>
+
+
+					<li class=""><a href="/pages/contacts.html">Contact</a></li>
+					<!--li class=""><a href="/pages/resources.html">Resources</a></li-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--/.nav-collapse -->
+</header>
+
+
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="list-group">
+	<div class="list-group-item active">
+		<select class="pull-right" onchange="self.location.href=options[selectedIndex].value">
+			<option>- Contest Criteria -</option>
+			<hr>
+			
+			<option value="/contests/2016/10/10/architecture.html">1. Architecture</option>
+			
+			<option value="/contests/2016/10/09/market-appeal.html">2. Market Appeal</option>
+			
+			<option value="/contests/2016/10/08/engineering.html">3. Engineering</option>
+			
+			<option value="/contests/2016/10/07/communications.html">4. Communications</option>
+			
+			<option value="/contests/2016/10/06/innovation.html">5. Innovation</option>
+			
+			<option value="/contests/2016/10/05/comfort-zone.html">6. Comfort Zone</option>
+			
+			<option value="/contests/2016/10/04/appliances.html">7. Appliances</option>
+			
+			<option value="/contests/2016/10/03/home-life.html">8. Home Life</option>
+			
+			<option value="/contests/2016/10/02/commuting.html">9. Commuting</option>
+			
+			<option value="/contests/2016/10/01/energy.html">10. Energy</option>
+			
+		</select>
+
+		<h3 class="panel-title">10. Energy Contest (100 points)</h3>
+	</div>
+
+	<!--div class="list-group-item" style="background: url(/assets/img/img_architecture.jpg) center center; background-size: cover; height: 300px;"></div-->
+
+	<div class="list-group-item">
+		<p><strong>10-1. Energy Balance</strong> (80 points)</p>
+
+<p>All available points are earned at the conclusion of the specified energy performance period for a net electrical energy balance of at least <code>0 kWh</code>. A positive net electrical energy balance indicates net production; a negative net electrical energy balance indicates net consumption. Reduced points are earned for a net electrical energy balance between -50 kWh and 0 kWh. Reduced points are scaled linearly.</p>
+
+<p><img class="img-thumbnail center" src="/assets/img/con_11.png" /></p>
+
+<p><strong>10-2. Generating Capacity</strong> (20 points)</p>
+
+<p>Generating capacity will be determined at the conclusion of the specified energy performance period by calculating the measured energy production per unit PV area (kWh/m2). All available points are earned by the team that has the highest generating capacity. Other teams will be scored proportionally.</p>
+
+<p><img class="img-thumbnail center" src="/assets/img/con_12.png" /></p>
+
+	</div>
+
+	<div class="list-group-item">
+		
+
+
+
+
+<a class="btn btn-xs btn-primary" href="/contests/2016/10/02/commuting.html" class="prev">
+	‹ Previous
+</a>
+
+
+
+
+	</div>
+</div>
+
+			</div><!-- /.col-sm-4 -->
+
+			<div class="col-sm-4">
+				<!--========================== Updates ================================-->
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Updates</h3>
+	</div>
+
+	<div class="list-group-item">
+		<p class="gray">
+			04 May 2017
+			<span class="label label-info">New</span>
+		</p>
+		The most updated CAD files for competition site masterplan, water and electric plans are available for <a href="/pages/downloads.html">downloading</a>. Check them out!
+	</div>
+</div>
+
+
+<!--========================== Recent Dues ================================-->
+
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Quick Enquiry</h3>
+	</div>
+
+	<div class="list-group-item">
+		<form class="contact" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
+			<input type="text" name="Name" value="Your Name" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<input type="email" name="Email" value="Your Email" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<input type="text" name="Subject" value="Enquiry Subject" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<textarea name="Message" value="Message" onfocus="onFocus(this)" onblur="onBlur(this)">Message</textarea>
+			<button type="submit" class="btn btn-sm btn-primary">Send</button>
+		</form>
+	</div>
+</div>
+
+
+
+<!--========================== Recent Dues ================================-->
+
+<!--div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Recent Dues</h3>
+	</div>
+
+	<div class="list-group-item">
+		<p><code>12 Dec 2016</code> House Description [<a href="/assets/doc/2016-11-07-appendix-2.docx" target="_blank">Template</a>], 5 Renderings</p>
+		<p><code>16 Dec 2016</code> Health and Safety Plan [<a href="/assets/doc/Health_and_Safety_Plan_Template.pdf" target="_blank">Template</a>], SketchUp Model</p>
+		<p><code>31 Dec 2016</code> Scale Model</p>
+		<p><a class="btn btn-xs btn-primary" href="/updates/2016/09/14/deliverables-due-date.html">Deliverable Due Dates</a> are periodically updating.</p>
+	</div>
+</div-->
+
+
+<!--========================== News ================================-->
+
+
+<!--div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">News</h3>
+	</div>
+
+	
+	<div class="list-group-item">
+		<p class="gray">14 Jan 2017</p>
+		<p>The Second SDC Workshop was successfully held from January 13th to 15th. 22 participating teams, along with their 3D scale models enjoyed a wonderful get-together in Dezhou.</p>
+		
+		<a href="/assets/img/news/img_4_.jpg" target="_blank"><img src="/assets/img/news/img_4.jpg" class="img-thumbnail"></a>
+		
+	</div>
+	
+	<div class="list-group-item">
+		<p class="gray">10 Nov 2016</p>
+		<p>The R.E.A.L. House made its first public appearance at Hunan Housing Industrialization and Green Building Industry Expo in Changsha. <a href="http://www.solaroffspring.com" target="_blank">#Team Solar Offspring</a></p>
+		
+		<a href="/assets/img/news/img_2_.jpg" target="_blank"><img src="/assets/img/news/img_2.jpg" class="img-thumbnail"></a>
+		
+	</div>
+	
+	<div class="list-group-item">
+		<p class="gray">20 Oct 2016</p>
+		<p>Headed by Prof. Fisch, solar decathletes from Technische Universität Braunschweig interacted with their Chinese partners at Southeast University in Nanjing. <a href="#">#Team SEU-TUBS</a></p>
+		
+		<a href="/assets/img/news/img_3_.jpg" target="_blank"><img src="/assets/img/news/img_3.jpg" class="img-thumbnail"></a>
+		
+	</div>
+	
+</div-->
+
+
+<!--========================== Contact ================================-->
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Contact</h3>
+	</div>
+
+	<div class="list-group-item center">
+		<a class="btn btn-sm btn-success" href="mailto:support@sdchina.org.cn">support@sdchina.org.cn</a>
+	</div>
+
+	<div class="list-group-item">
+		<strong>Yvonne Li</strong>, Team Manager<br>
+		Email: <a href="mailto:yvonne.li@sdchina.org.cn">yvonne.li@sdchina.org.cn</a>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+	<span>&copy;</span>
+	<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+	Solar Decathlon China. All Rights Reserved.
+	<a href="http://statcounter.com" target="_blank"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11137769; 
+var sc_invisible=0; 
+var sc_security="1a57d4b4"; 
+var sc_text=2; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/11137769/0/1a57d4b4/0/"
+alt="shopify analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></a> visits.
+
+</footer>
+</body>
+</html>
