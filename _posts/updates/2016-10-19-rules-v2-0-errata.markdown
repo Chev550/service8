@@ -1,6 +1,6 @@
 ---
 layout: update
-title: "Typos and Amendments in RULES V2.0"
+title: "RULES V2.0 Errata"
 category: updates
 ---
 
