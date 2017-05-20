@@ -18,6 +18,7 @@
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="{{ site.baseurl }}/pages/competition/calendar.html">Calendar</a></li>
 							<li><a href="{{ site.baseurl }}/pages/competition/teams.html">Teams</a></li>
+							<li><a href="{{ site.baseurl }}/pages/competition/juries.html">Juries</a></li>
 							<li><a href="{{ site.baseurl }}/pages/competition/contests.html">Contests</a></li>
 							<li><a href="{{ site.baseurl }}/pages/competition/rules.html">Rules</a></li>
 						</ul>
@@ -41,20 +42,11 @@
 
 					<li class="{% if page.url contains 'downloads' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/downloads.html">Downloads</a></li>
 
+
+					<li class="{% if page.url contains 'submission' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/submission/deliverables.html">Submission</a></li>
+
 					
-					<li class="{% if page.url contains 'questions' %}active{% endif %}"><a href="{{ site.baseurl }}/questions/">Q&A</a></li>
-
-
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Submission <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="{{ site.baseurl }}/pages/submission/due_dates.html">Due Dates</a></li>
-
-							<li class="divider"></li>
-							<li><a href="{{ site.baseurl }}/pages/submission/submission_dd.html">Design Development</a></li>
-							<li><a href="{{ site.baseurl }}/pages/submission/submission_sm.html">Scale Model</a></li>
-						</ul>
-					</li>
+					<li class="{% if page.url contains 'questions' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/questions.html">Q&A</a></li>
 
 
 					<li class="{% if page.url contains 'contacts' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/contacts.html">Contact</a></li>

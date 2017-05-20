@@ -1,8 +1,0 @@
----
-layout: update
-title:  "The SDC Organizing Committee visited Team Solar Offspring"
-category: news
-img: img_2
----
-
-The R.E.A.L. House made its first public appearance at Hunan Housing Industrialization and Green Building Industry Expo in Changsha. <a href="http://www.solaroffspring.com" target="_blank">#Team Solar Offspring</a>

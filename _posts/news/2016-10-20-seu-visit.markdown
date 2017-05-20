@@ -1,8 +1,0 @@
----
-layout: update
-title:  "The SDC Organizing Committee visited Team SEU-TUBS"
-category: news
-img: img_3
----
-
-Headed by Prof. Fisch, solar decathletes from Technische Universität Braunschweig interacted with their Chinese partners at Southeast University in Nanjing. <a href="#">#Team SEU-TUBS</a>
