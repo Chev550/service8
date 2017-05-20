@@ -36,6 +36,11 @@
 }
 
 
+.juror-img {
+	margin-right: 2em;
+	margin-bottom: 1em;
+}
+
 .version {
 	display: inline-block;
 	text-align: center;
@@ -45,6 +50,9 @@
 	margin: 0.2em;
 }
 
+.normal-weight {
+  font-weight: normal;
+}
 
 footer {
 	color: gray;
@@ -53,6 +61,9 @@ footer {
 	margin: 10px 0;
 }
 
+textarea {
+  width: 100%;
+}
 
 svg {
 	width: 16px;
@@ -106,7 +117,7 @@ a:hover path {
 .contact textarea {
 	border: 0;
 	border-bottom: 1px dotted #ccc;
-	color: #ccc;
+	color: gray;
 	width: 100%;
 	display: block;
 	margin: 1em 0;

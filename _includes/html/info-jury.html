@@ -1,0 +1,64 @@
+<div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Nominate a Juror</h3>
+	</div>
+
+	<div class="list-group-item">
+		<form action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
+			<p>
+				Fill out information below to nominate a jury candidate for Contest 
+				<select name="Contest Group">
+					<option value="N/A">- Select -</option>
+					<option value="Architecture">Architecture</option>
+					<option value="Market Appeal">Market Appeal</option>
+					<option value="Engineering">Engineering</option>
+					<option value="Communications">Communications</option>
+					<option value="Innovation">Innovation</option>
+				</select>
+				.
+			</p>
+			<p>A qualified candidate shall be an expert in contest-related field, and shall not directly serve a role with Solar Decathlon China 2018 competing teams.</p>
+			<p>Each team can nominate up to two jury candidates.</p>
+
+			<hr>
+			<p><i>Nominee Information</i></p>
+			<p>First Name <input type="text" name="First Name"></p>
+			<p>Last Name <input type="text" name="Last Name"></p>
+			<p>
+				Gender
+				<select name="Gender">
+					<option value="N/A">- Select -</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</p>
+			<p>Institution <input type="text" name="Institution"></p>
+			<p>Title <input type="text" name="Title"></p>
+			<p>Profile Photo <input type="file"></p>
+			<p>
+				Biography <i>(500 words maximum)</i><br>
+				<textarea name="Biography" rows="6"></textarea>
+			</p>
+			<p>Reference Website <input type="text" name="Website"></p>
+			<p>Attachment <i>(optional)</i> <input type="file"></p>
+
+			<hr>
+			<p>
+				Nominated by 
+				<select name="Team">
+					<option>- Teams -</option>
+					{% for team in site.teams %}
+					<option value="{{ site.baseurl }}/pages/teams/{{ team.abr }}.html">{{ team.num }} {{ team.name }}</option>
+					{% endfor %}
+				</select>
+			</p>
+			<p>
+				Reason of Nomination<br>
+				<textarea name="Reason" rows="5"></textarea>
+			</p>
+
+			<button type="submit" class="btn btn-sm btn-primary">Submit</button>
+		</form>
+	</div>
+</div>

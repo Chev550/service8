@@ -3,3 +3,20 @@ layout: default
 title: "Solar Decathlon China 2018 Jury Nomination"
 ---
 
+<div class="list-group">
+	<div class="list-group-item">
+		<h3 class="center">Jury Nominees</h3>
+		<hr>
+
+		<div class="row">
+			{% for post in site.categories.juries %}
+			<div class="col-sm-4">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/{{ post.img }}.png">
+				</a>
+				<h4 class="center">{{ post.title }}</h4>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

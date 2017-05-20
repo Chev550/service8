@@ -3,19 +3,19 @@
 function onFocus(x){
 	if (x.value == x.defaultValue){
 		x.value = '';
-		x.style.color = '#303030';
+		x.style.color = '#333';
 	}
 	else if (x.value != x.defaultValue){
-		x.style.color = '#303030';
+		x.style.color = '#333';
 	}
 }
 function onBlur(x){
 	if (x.value == ''){
 		x.value = x.defaultValue;
-		x.style.color = '#ccc';
+		x.style.color = 'gray';
 	}
 	else if (x.value != ''){
-		x.style.color = '#ccc';
+		x.style.color = 'gray';
 	}
 }
 
