@@ -10,7 +10,9 @@
 .clearance {
 	margin-top: 20px;
 }
-
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
 
 .contest,
 .file {

@@ -1,6 +1,6 @@
 ---
 layout: jury
-title: "Brian Lee"
+title: "Brian LEE"
 img: brian_lee
 category: juries
 group: Architecture

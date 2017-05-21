@@ -104,17 +104,27 @@
 		<div class="row">
 			
 			<div class="col-sm-4">
+				<a href="/juries/2017/05/21/kongjian-yu.html">
+					<img class="img-thumbnail" src="/assets/img/kongjian_yu.png">
+				</a>
+				<h4 class="center margin-bottom-0">Kongjian YU</h4>
+				<p class="center gray">Architecture</p>
+			</div>
+			
+			<div class="col-sm-4">
 				<a href="/juries/2017/05/20/xiaodu-liu.html">
 					<img class="img-thumbnail" src="/assets/img/liu_xiaodu.png">
 				</a>
-				<h4 class="center">Xiaodu Liu</h4>
+				<h4 class="center margin-bottom-0">Xiaodu LIU</h4>
+				<p class="center gray">Architecture</p>
 			</div>
 			
 			<div class="col-sm-4">
 				<a href="/juries/2017/05/20/brian-lee.html">
 					<img class="img-thumbnail" src="/assets/img/brian_lee.png">
 				</a>
-				<h4 class="center">Brian Lee</h4>
+				<h4 class="center margin-bottom-0">Brian LEE</h4>
+				<p class="center gray">Architecture</p>
 			</div>
 			
 		</div>
@@ -130,11 +140,21 @@
 	</div>
 
 	<div class="list-group-item">
-		<form action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+		<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+
 			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
+
+			<p>Fill out information below to nominate a jury candidate for Solar Decathlon China 2018.</p>
+
+			<p>A qualified candidate shall be an expert in contest-related field, and shall not directly serve a role with any competing team.</p>
+
+			<p>Each team can nominate up to two jury candidates.</p>
+
+
+			<hr>
 			<p>
-				Fill out information below to nominate a jury candidate for Contest 
-				<select name="Contest Group">
+				<label>Nominate for Contest</label>
+				<select name="Contest" class="form-control">
 					<option value="N/A">- Select -</option>
 					<option value="Architecture">Architecture</option>
 					<option value="Market Appeal">Market Appeal</option>
@@ -142,89 +162,124 @@
 					<option value="Communications">Communications</option>
 					<option value="Innovation">Innovation</option>
 				</select>
-				.
 			</p>
-			<p>A qualified candidate shall be an expert in contest-related field, and shall not directly serve a role with Solar Decathlon China 2018 competing teams.</p>
-			<p>Each team can nominate up to two jury candidates.</p>
+
 
 			<hr>
 			<p><i>Nominee Information</i></p>
-			<p>First Name <input type="text" name="First Name"></p>
-			<p>Last Name <input type="text" name="Last Name"></p>
+
 			<p>
-				Gender
-				<select name="Gender">
+				<label>First Name</label>
+				<input type="text" name="First Name" class="form-control">
+			</p>
+
+			<p>
+				<label>Last Name</label>
+				<input type="text" name="Last Name" class="form-control">
+			</p>
+
+			<p>
+				<label>Gender</label>
+				<select name="Gender" class="form-control">
 					<option value="N/A">- Select -</option>
 					<option value="Male">Male</option>
 					<option value="Female">Female</option>
 				</select>
 			</p>
-			<p>Institution <input type="text" name="Institution"></p>
-			<p>Title <input type="text" name="Title"></p>
-			<p>Email <input type="email" name="Email"></p>
-			<p>Profile Photo <input type="file"></p>
+
 			<p>
-				Biography <i>(500 words maximum, or attach a document below)</i><br>
-				<textarea name="Biography" rows="6"></textarea>
+				<label>Institution</label>
+				<input type="text" name="Institution" class="form-control">
 			</p>
-			<p>Attachment <input type="file"></p>
-			<p>Reference Website <input type="text" name="Website"></p>
+
+			<p>
+				<label>Title</label>
+				<input type="text" name="Title" class="form-control">
+			</p>
+
+			<p>
+				<label>Email</label>
+				<input type="email" name="Email" class="form-control">
+			</p>
+
+			<p>
+				<label>Profile Photo</label>
+				<input type="file" name="Photo" class="form-control">
+			</p>
+
+			<p>
+				<label>Biography</label><br>
+				<i>(500 words maximum, or attach a document below)</i><br>
+				<textarea name="Biography" rows="6" class="form-control"></textarea>
+			</p>
+
+			<p>
+				<label>Attachment</label>
+				<input type="file" name="Attachment" class="form-control">
+			</p>
+
+			<p>
+				<label>Reference Website</label>
+				<input type="text" name="Website" class="form-control">
+			</p>
+
 
 			<hr>
 			<p>
-				Nominated by 
-				<select name="Team">
+				<label>Nominated by</label>
+				<select name="Team" class="form-control">
 					<option>- Teams -</option>
 					
-					<option value="/pages/teams/hku.html">1 Team HKU</option>
+					<option value="Team HKU">1 Team HKU</option>
 					
-					<option value="/pages/teams/ssa.html">2 Team SSA</option>
+					<option value="Team SSA">2 Team SSA</option>
 					
-					<option value="/pages/teams/thu.html">3 Team THU</option>
+					<option value="Team THU">3 Team THU</option>
 					
-					<option value="/pages/teams/xjt.html">4 Team XJTU-WNEU</option>
+					<option value="Team XJTU-WNEU">4 Team XJTU-WNEU</option>
 					
-					<option value="/pages/teams/yi.html">5 Team YI</option>
+					<option value="Team YI">5 Team YI</option>
 					
-					<option value="/pages/teams/njf.html">6 Team NJFJ</option>
+					<option value="Team NJFJ">6 Team NJFJ</option>
 					
-					<option value="/pages/teams/ist.html">7 Team Istanbul</option>
+					<option value="Team Istanbul">7 Team Istanbul</option>
 					
-					<option value="/pages/teams/sue.html">8 Team SUES-XD</option>
+					<option value="Team SUES-XD">8 Team SUES-XD</option>
 					
-					<option value="/pages/teams/shu.html">9 Team Shunya</option>
+					<option value="Team Shunya">9 Team Shunya</option>
 					
-					<option value="/pages/teams/mon.html">10 Team Montreal</option>
+					<option value="Team Montreal">10 Team Montreal</option>
 					
-					<option value="/pages/teams/jia.html">11 Team JIA+</option>
+					<option value="Team JIA+">11 Team JIA+</option>
 					
-					<option value="/pages/teams/pur.html">12 Team Purdue</option>
+					<option value="Team Purdue">12 Team Purdue</option>
 					
-					<option value="/pages/teams/seu.html">13 Team SEU-TUBS</option>
+					<option value="Team SEU-TUBS">13 Team SEU-TUBS</option>
 					
-					<option value="/pages/teams/xau.html">14 Team XAUAT</option>
+					<option value="Team XAUAT">14 Team XAUAT</option>
 					
-					<option value="/pages/teams/sjt.html">15 Team SJTUIUC</option>
+					<option value="Team SJTUIUC">15 Team SJTUIUC</option>
 					
-					<option value="/pages/teams/bjt.html">16 Team BJTU</option>
+					<option value="Team BJTU">16 Team BJTU</option>
 					
-					<option value="/pages/teams/sie.html">17 Team SIE</option>
+					<option value="Team SIE">17 Team SIE</option>
 					
-					<option value="/pages/teams/tju.html">18 Team TJU-TUD</option>
+					<option value="Team TJU-TUD">18 Team TJU-TUD</option>
 					
-					<option value="/pages/teams/sol.html">19 Team Solar Offspring</option>
+					<option value="Team Solar Offspring">19 Team Solar Offspring</option>
 					
-					<option value="/pages/teams/scu.html">20 Team SCUT-POLITO</option>
+					<option value="Team SCUT-POLITO">20 Team SCUT-POLITO</option>
 					
-					<option value="/pages/teams/unn.html">21 Team UNNC Alpha</option>
+					<option value="Team UNNC Alpha">21 Team UNNC Alpha</option>
 					
-					<option value="/pages/teams/isr.html">22 Team Israel</option>
+					<option value="Team Israel">22 Team Israel</option>
 					
 				</select>
 			</p>
+
 			<p>
-				Reason of Nomination<br>
-				<textarea name="Reason" rows="5"></textarea>
+				<label>Reason of Nomination</label>
+				<textarea name="Reason" rows="5" class="form-control"></textarea>
 			</p>
 
 			<button type="submit" class="btn btn-sm btn-primary">Submit</button>
