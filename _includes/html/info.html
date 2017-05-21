@@ -15,8 +15,9 @@
 </div>
 
 
-<!--========================== Recent Dues ================================-->
-
+<!--========================== Quick Enquiry ================================-->
+{% if page.url contains "contact" %}
+{% else %}
 <div class="list-group">
 	<div class="list-group-item active">
 		<h3 class="panel-title">Quick Enquiry</h3>
@@ -51,7 +52,7 @@
 		</form>
 	</div>
 </div>
-
+{% endif %}
 
 
 <!--========================== Recent Dues ================================-->
