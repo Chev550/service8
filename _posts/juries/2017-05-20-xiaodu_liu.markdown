@@ -1,14 +1,14 @@
 ---
 layout: jury
-title: "Xiaodu LIU"
-img: liu_xiaodu
+title: "Xiaodu Liu"
+img: xiaodu_liu
 category: juries
 group: Architecture
 nominator: "Organizing Committee"
 ---
 
 
-### Xiaodu LIU
+### Xiaodu Liu
 
 _Principal Architect and Co-founder of URBANUS Architecture & Design Inc._
 

@@ -1,6 +1,6 @@
 ---
 layout: jury
-title: "Brian LEE"
+title: "Brian Lee"
 img: brian_lee
 category: juries
 group: Architecture
@@ -8,7 +8,7 @@ nominator: "Organizing Committee"
 ---
 
 
-### Brian LEE
+### Brian Lee
 
 _FAIA, LEED® AP, Design Partner of Skidmore, Owings & Merrill LLP_
 
