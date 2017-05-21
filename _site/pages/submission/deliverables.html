@@ -84,7 +84,7 @@
 					<li class=""><a href="/pages/questions.html">Q&A</a></li>
 
 
-					<li class=""><a href="/pages/contacts.html">Contact</a></li>
+					<li class=""><a href="/pages/contact.html">Contact</a></li>
 					<!--li class=""><a href="/pages/resources.html">Resources</a></li-->
 				</ul>
 			</div>
@@ -197,12 +197,30 @@
 	</div>
 
 	<div class="list-group-item">
-		<form class="contact" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+		<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+
 			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
-			<input type="text" name="Name" value="Your Name" onfocus="onFocus(this)" onblur="onBlur(this)">
-			<input type="email" name="Email" value="Your Email" onfocus="onFocus(this)" onblur="onBlur(this)">
-			<input type="text" name="Subject" value="Enquiry Subject" onfocus="onFocus(this)" onblur="onBlur(this)">
-			<textarea name="Message" value="Message" onfocus="onFocus(this)" onblur="onBlur(this)">Message</textarea>
+
+			<p>
+				Your Name
+				<input type="text" name="Name" class="form-control">
+			</p>
+			
+			<p>
+				Your Email
+				<input type="email" name="Email" class="form-control">
+			</p>
+			
+			<p>
+				Enquiry Subject
+				<input type="text" name="Subject" class="form-control">
+			</p>
+
+			<p>
+				Message
+				<textarea name="Message" rows="5" class="form-control"></textarea>
+			</p>
+			
 			<button type="submit" class="btn btn-sm btn-primary">Send</button>
 		</form>
 	</div>

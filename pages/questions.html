@@ -10,17 +10,25 @@ title: "Q&A"
 
 
 	<div class="list-group-item">
-		<form class="contact" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+		<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+
 			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
-			<textarea name="Question" value="Submit a question/request..." onfocus="onFocus(this)" onblur="onBlur(this)">Submit a question/request...</textarea>
+
+			<p>
+				Submit a question/request...
+				<textarea name="Question" rows="6" class="form-control"></textarea>
+			</p>
 			
-			From: 
-			<select name="Team">
-				<option>Select team</option>
-				{% for team in site.teams %}
-				<option>{{ team.name }}</option>
-				{% endfor %}
-			</select>
+			<p>
+				From: 
+				<select name="Team" class="form-control">
+					<option>Select team</option>
+					{% for team in site.teams %}
+					<option>{{ team.name }}</option>
+					{% endfor %}
+				</select>
+			</p>
+
 			<button type="submit" class="btn btn-sm btn-primary">Submit</button>
 		</form>
 	</div>

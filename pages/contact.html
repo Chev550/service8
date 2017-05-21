@@ -9,11 +9,25 @@ title: "Contact"
 	</div>
 	
 	<div class="list-group-item">
-		<form class="contact" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="POST">
+		<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+
 			<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
-			<input type="text" name="Subject" value="Subject" onfocus="onFocus(this)" onblur="onBlur(this)">
-			<input type="email" name="Email" value="Email" onfocus="onFocus(this)" onblur="onBlur(this)">
-			<textarea name="Message" value="Message" onfocus="onFocus(this)" onblur="onBlur(this)">Message</textarea>
+			
+			<p>
+				Subject
+				<input type="text" name="Subject" class="form-control">
+			</p>
+
+			<p>
+				Email
+				<input type="email" name="Email" class="form-control">
+			</p>
+			
+			<p>
+				Message
+				<textarea name="Message" rows="6" class="form-control"></textarea>
+			</p>
+			
 			<button type="submit" class="btn btn-sm btn-primary">Send</button>
 		</form>
 	</div>
