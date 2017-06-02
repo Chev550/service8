@@ -1,0 +1,23 @@
+---
+layout: wide
+title: "Map"
+---
+
+<!-- ================== Mapbox ==================== -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
+
+
+
+<div class="list-group">
+	<div class="list-group-item">
+		<div id='map' style='width: 100%; height: 500px;'></div>
+		<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoibHVjYXNsaW9ubGluZSIsImEiOiJjajNmZGdwZWowMHphMnFwODc3MHlxZzNmIn0.vWNrnvAvrycCab9p3ogUIA';
+		var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/light-v9'
+		});
+		</script>
+	</div>
+</div>
