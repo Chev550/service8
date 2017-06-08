@@ -181,10 +181,10 @@ a:hover path {
 
 
 .team-logo {
-	width: 92px;
-	height: 92px;
+	width: 90px;
+	height: 90px;
 	display: inline-block;
-	margin: 0.5em;
+	margin: 8px;
 }
 .img-wide {
 	width: 100%;
