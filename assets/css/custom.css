@@ -184,3 +184,6 @@ a:hover path {
 	max-width: 300px;
 	margin: 0.5em;
 }
+.img-wide {
+	width: 100%;
+}
