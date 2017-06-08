@@ -179,9 +179,11 @@ a:hover path {
 
 
 
+
 .team-logo {
-	max-height: 100px;
-	max-width: 300px;
+	width: 92px;
+	height: 92px;
+	display: inline-block;
 	margin: 0.5em;
 }
 .img-wide {

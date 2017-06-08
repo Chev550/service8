@@ -207,10 +207,10 @@ title: "Solar Decathlon China 2018 Teams"
 			<div class="list-group-item">
 				{% for team in site.teams %}
 				<a href="{{ site.baseurl }}/pages/teams/{{ team.abr }}.html">
-					<img class="team-logo" src="{{ site.baseurl }}/assets/teams/{{ team.abr }}/logo.png" alt="{{ team.name }}">
+					<div class="team-logo" style="background: url({{ site.baseurl }}/assets/teams/{{ team.abr }}/logo.png) center center; background-size: contain; background-repeat:no-repeat;"></div>
 				</a>
-					{% endfor %}
-				</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
+</div>
