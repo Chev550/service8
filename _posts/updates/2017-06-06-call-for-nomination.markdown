@@ -19,6 +19,6 @@ A qualified candidate shall be an influential expert in contest-related field, a
 - Assign credits to each team based on their performance relative to the contest criteria;
 - Attend award ceremony upon availability to present prize to winners.
 
-Each team can nominate up to `two` jury candidates, who shall be in different contest groups. All nominees will be posted on Team Service Center >> Competition >> [Juries]({{ site.baseurl }}/pages/competition/juries.html). Please feel free to vote for your favorite ones. Final juries will be determined by the Organizing Committee based on nominees' qulification, availability, popularity, and by leveraging field, nationality, gender, etc. Each contest will have `five` juries on panel.
+Each team can nominate up to `two` jury candidates, who shall be in different contest groups. All nominees will be posted on Team Service Center >> Competition >> [Juries]({{ site.baseurl }}/pages/competition/juries.html). Please feel free to vote for your favorite ones. Final juries will be determined by the Organizing Committee based on nominees' qulification, availability, popularity; and by leveraging field, nationality, gender, etc. Each contest will have `five` juries on panel.
 
 If you are interested in nominating a candidate, please fill out and submit the application form [here]({{ site.baseurl }}/pages/competition/juries.html). The nomination process will be closed on `30 Jul 2017`.
