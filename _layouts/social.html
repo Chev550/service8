@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+	<div class="container clearance">
+		{% include header.html %}
+
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<table>
+							<tr>
+								<td class="user-profile">
+									<img src="{{ site.baseurl }}/assets/img/profile.png">
+								</td>
+								<td class="user-title">
+									<strong>Lucas Li</strong><br>
+									<span class="small gray">Competition Manager</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				{{ content }}
+			</div>
+
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-body">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	{% include footer.html %}
+</body>
+</html>

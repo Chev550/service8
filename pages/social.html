@@ -1,0 +1,40 @@
+---
+layout: social
+title: "Social"
+---
+
+<div class="well">
+	<form role="form" action="" method="post" enctype="multipart/form-data">
+
+		<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
+
+		<p>
+			<textarea name="Question" rows="4" class="form-control" placeholder="What's on your mind?" required></textarea>
+		</p>
+
+		<button type="submit" class="btn btn-sm btn-primary pull-right">Post</button>
+
+		<p><input type="file"></p>	
+	</form>
+</div>
+
+
+
+<!--============================== posts =============================-->
+<div class="panel panel-default">
+	<div class="panel-body">
+		<table>
+			<tr>
+				<td class="user-profile">
+					<img src="{{ site.baseurl }}/assets/img/profile.png">
+				</td>
+				<td class="user-title">
+					<strong><a href="#">Lucas Li</a></strong><br>
+					<span class="small gray">9 Jul 2017 at 6:00pm</span>
+				</td>
+			</tr>
+		</table>
+		<hr>
+		Like
+	</div>
+</div>
