@@ -37,42 +37,136 @@
 
 </head>
 
-<body style="background-color: #eee;">
+<body>
 	<div class="container clearance">
-				<form class="form-signup" role="form">
-			<p>
-				<select class="form-control">
-					<option>Team</option>
-					<option>Staff</option>
-				</select>
-			</p>
+		<header>
+	<!-- Static navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<img class="navbar-brand" src="/assets/img/sdc_logo.png">
+				<a class="navbar-brand" href="/">Team Service Center</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Competition <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/pages/competition/calendar.html">Calendar</a></li>
+							<li><a href="/pages/competition/teams.html">Teams</a></li>
+							<li><a href="/pages/competition/juries.html">Juries</a></li>
+							<li><a href="/pages/competition/contests.html">Contests</a></li>
+							<li><a href="/pages/competition/rules.html">Rules</a></li>
+						</ul>
+					</li>
 
-			<p>
-				<input type="text" class="form-control" placeholder="First Name" required>
-			</p>
 
-			<p>
-				<input type="text" class="form-control" placeholder="Last Name" required>
-			</p>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Workshop <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="dropdown-header">January 13, 2017</li>
+							<li><a href="/pages/workshop/agenda2.html">Agenda</a></li>
+							<li><a href="/pages/workshop/talk.html">SDC Talk</a></li>
+							<li><a href="/pages/workshop/resource2.html">Training Materials</a></li>
+							
+							<li class="divider"></li>
+							<li class="dropdown-header">July 27, 2016</li>
+							<li><a href="/pages/workshop/resource1.html">Training Materials</a></li>
+						</ul>
+					</li>
 
-			<p>
-				<input type="email" class="form-control" placeholder="Email" required>
-			</p>
 
-			<p>
-				<input type="text" class="form-control" placeholder="Username" required>
-			</p>
+					<li class=""><a href="/pages/downloads.html">Downloads</a></li>
 
-			<p>
-				<input type="password" class="form-control" placeholder="Password" required>
-			</p>
 
-			<p>
-				<input type="password" class="form-control" placeholder="Re-enter password" required>
-			</p>
+					<li class=""><a href="/pages/deliverables/deliverables.html">Deliverables</a></li>
 
-			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
-		</form>
+					
+					<li class=""><a href="/pages/questions.html">Q&A</a></li>
+
+
+					<!--li class=""><a href="/pages/contact.html">Contact</a></li-->
+				</ul>
+
+
+				<!--ul class="nav navbar-nav navbar-right">
+					<li><a href="/pages/login.html">Log in</a></li>
+				</ul-->
+			</div>
+		</div>
+	</nav>
+	<!--/.nav-collapse -->
+</header>
+
+
+		
+		<div class="well">
+	<form class="form-signup" role="form">
+		<p>
+			<select class="form-control">
+				<option>Team</option>
+				<option>Staff</option>
+			</select>
+		</p>
+
+		<p>
+			<input type="text" class="form-control" placeholder="First Name" required>
+		</p>
+
+		<p>
+			<input type="text" class="form-control" placeholder="Last Name" required>
+		</p>
+
+		<p>
+			<input type="text" class="form-control" placeholder="Email or phone number" required>
+		</p>
+
+		<p>
+			<input type="password" class="form-control" placeholder="Password" required>
+		</p>
+
+		<p>
+			<input type="password" class="form-control" placeholder="Re-enter password" required>
+		</p>
+
+		<p class="gray small">By clicking Sign up, you agree to the Solar Decathlon China User Agreement, Privacy Policy, and Cookie Policy.</p>
+
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+	</form>
+</div>
 	</div>
+
+
+	<footer>
+	<span>&copy;</span>
+	<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+	Solar Decathlon China. All Rights Reserved.
+	<a href="http://statcounter.com" target="_blank"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11137769; 
+var sc_invisible=0; 
+var sc_security="1a57d4b4"; 
+var sc_text=2; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/11137769/0/1a57d4b4/0/"
+alt="shopify analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></a> visits.
+
+</footer>
 </body>
 </html>

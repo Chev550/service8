@@ -1,3 +1,5 @@
+
+
 .gray {
 	color: gray;
 }
@@ -90,10 +92,10 @@ a:hover path {
 
 /* signin
 -------------------------------------------------- */
-.form-signin {
+.form-signin,
+.form-signup {
 	max-width: 300px;
 	margin: 0 auto;
-	margin-top: 80px;
 }
 .form-signin .form-control {
   position: relative;
@@ -115,14 +117,6 @@ a:hover path {
   margin-bottom: 0.5em;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-}
-
-
-
-.form-signup {
-	max-width: 300px;
-	margin: 0 auto;
-	margin-top: 80px;
 }
 
 
@@ -192,24 +186,22 @@ a:hover path {
 }
 
 
-.user-head {
-	background: url(../img/user-bg.jpg) center center;
-	background-size: cover; 
-	background-repeat:no-repeat;
-	text-align: center;
-}
+
 .user-avatar {
 	width: 88px;
 	height: 88px;
 	border-radius: 50%;
 	border: 4px solid white;
 }
+.user-title {
+	margin-bottom: 1em;
+}
 .user-profile img {
 	width: 40px;
 	height: 40px;
 	border-radius: 3px;
 }
-.user-title {
+.user-header {
 	padding-left: 0.5em;
 	width: 100%;
 }

@@ -8,6 +8,7 @@
 	<div class="container clearance">
 		{% include header.html %}
 
+
 		<div class="row">
 			<div class="col-sm-3">
 				<div class="list-group">
@@ -19,14 +20,24 @@
 				</div>
 			</div>
 
+
 			<div class="col-sm-6">
 				{{ content }}
 			</div>
 
+
 			<div class="col-sm-3">
 				<div class="panel panel-default">
 					<div class="panel-body">
-						<span class="gray small"></span>
+						<form role="form">
+							<p><input type="text" name="username" class="form-control" placeholder="Email or phone number" required></p>
+
+							<p><input type="password" name="password" class="form-control" placeholder="Password" required></p>
+
+							<p><input type="checkbox" value="remember-me"> Remember me</p>
+
+							<p><button class="btn btn-sm btn-primary btn-block" type="submit">Sign in</button></p>
+						</form>
 					</div>
 				</div>
 			</div>
