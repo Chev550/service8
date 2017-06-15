@@ -1,10 +1,22 @@
 ---
-layout: post
-title: "Media"
+layout: default
+title: "videos"
 ---
 
+
 <div class="list-group">
+	<div class="list-group-item active">
+		<h3 class="panel-title">Videos</h3>
+	</div>
+
 	<div class="list-group-item">
-		<iframe frameborder="0" width="100%" height="450" src="https://v.qq.com/iframe/player.html?vid=x0514hggsb6&tiny=0&auto=0" allowfullscreen></iframe>
+		{% for post in site.categories.videos %}
+		<a href="{{ site.baseurl }}{{ post.url }}">
+			<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/{{ post.img }}.png"><br>
+			{{ post.title }}<br>
+		</a>
+
+		<span class="gray small">{{ post.date | date_to_string }}</span>
+		{% endfor %}
 	</div>
 </div>

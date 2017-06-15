@@ -4412,6 +4412,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination {
   display: inline-block;
   padding-left: 0;
+  margin: 20px 0;
   border-radius: 4px;
 }
 .pagination > li {
@@ -4972,11 +4973,9 @@ a.list-group-item:focus {
 .list-group-item.active:hover,
 .list-group-item.active:focus {
   z-index: 2;
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-  /*color: #fff;
+  color: #fff;
   background-color: #428bca;
-  border-color: #428bca;*/
+  border-color: #428bca;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
