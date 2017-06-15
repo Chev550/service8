@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="list-group">
-	<div class="list-group-item active">
+<div class="panel panel-default">
+	<div class="panel-heading">
 		<a href="{{ site.baseurl }}/pages/competition/teams.html">Teams</a> &raquo; {{ page.title }}
 		<!--select class="pull-right" onchange="self.location.href=options[selectedIndex].value">
 			<option>- Teams -</option>
@@ -46,7 +46,9 @@ layout: default
 		</a>
 	</div>
 
-	<div class="list-group-item">
-		{{ content }}
+	<div class="list-group">
+		<div class="list-group-item">
+			{{ content }}
+		</div>
 	</div>
 </div>

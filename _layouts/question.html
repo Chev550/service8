@@ -10,19 +10,21 @@
 
 		<div class="row">
 			<div class="col-sm-8">
-				<div class="list-group">
-					<div class="list-group-item">
+				<div class="panel panel-default">
+					<div class="panel-body">
 						<span class="gray">{{ page.date | date_to_string }}</span>
 						<h4>{{ page.title }}</h4>
-						<p>{% include html/post_tags.html %}</p>
+						<span>{% include html/post_tags.html %}</span>
 					</div>
 
-					<div class="list-group-item active">
-						{{ content }}
-					</div>
+					<div class="list-group">
+						<div class="list-group-item">
+							{{ content }}
+						</div>
 
-					<div class="list-group-item">
-						{% include html/pages.html %}
+						<div class="list-group-item">
+							{% include html/pages.html %}
+						</div>
 					</div>
 				</div>
 			</div>
