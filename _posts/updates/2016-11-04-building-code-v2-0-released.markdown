@@ -1,5 +1,5 @@
 ---
-layout: update
+layout: post
 title: "Building Code V2.0 Released"
 category: updates
 label: Important

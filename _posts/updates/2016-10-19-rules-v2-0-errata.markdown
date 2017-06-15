@@ -1,5 +1,5 @@
 ---
-layout: update
+layout: post
 title: "RULES V2.0 Errata"
 category: updates
 ---

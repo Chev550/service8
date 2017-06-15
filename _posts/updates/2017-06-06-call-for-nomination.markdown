@@ -1,5 +1,5 @@
 ---
-layout: update
+layout: post
 title: "Call for Jury Committee Nominations"
 category: updates
 ---

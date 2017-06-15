@@ -1,5 +1,5 @@
 ---
-layout: update
+layout: post
 title: "Notification of Postponement"
 category: updates
 ---

@@ -1,5 +1,5 @@
 ---
-layout: update
+layout: post
 title: "Notice for the Second SDC 2017 Technical Training Workshop"
 category: updates
 ---
