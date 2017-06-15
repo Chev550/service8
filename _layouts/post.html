@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+	<div class="container clearance">
+		{% include header.html %}
+
+		<div class="row">
+			<div class="col-sm-8">
+				{{ content }}
+			</div>
+
+			<div class="col-sm-4">
+				<!-- UY BEGIN -->
+				<div id="uyan_frame"></div>
+				<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2136562"></script>
+				<!-- UY END -->
+			</div>
+		</div>
+	</div>
+
+
+	{% include footer.html %}
+</body>
+</html>
