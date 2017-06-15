@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Competition Site in Construction"
+title: "Competition Site under Construction"
 category: videos
 img: video1
 ---
