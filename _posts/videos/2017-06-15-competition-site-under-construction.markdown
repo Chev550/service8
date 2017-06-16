@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 title: "Competition Site under Construction"
 category: videos
 img: video1
