@@ -1,6 +1,6 @@
 ---
 layout: video
-title: "Solar Decathlon China 2017 Global Launching Ceremony Opening Video"
+title: "Solar Decathlon China Global Launching Ceremony Opening Video"
 category: videos
 img: video3
 ---

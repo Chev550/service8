@@ -1,6 +1,6 @@
 ---
 layout: video
-title: "The First Training Session of Solar Decathlon China 2017"
+title: "The First Training Session of Solar Decathlon China"
 category: videos
 img: video2
 ---
