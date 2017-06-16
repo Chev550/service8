@@ -5,11 +5,6 @@ permalink: /tags/
 ---
 
 <div class="list-group">
-	<div class="list-group-item active">
-		<h3 class="panel-title">Q&A</h3>
-	</div>
-
-
 	<div class="list-group-item">
 		{% for tag in site.tags %}
 		<a class="btn btn-xs btn-default tag-cloud" href="#{{ tag | first | slugize }}">#{{ tag | first }}</a>
