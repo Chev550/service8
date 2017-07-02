@@ -15,9 +15,11 @@
 						<span class="gray pull-right">{{ page.date | date_to_string }}</span>
 						<h3 class="panel-title">{{ page.title }}</h3>
 					</div>
-				
-					{{ content }}
 					
+					<div class="panel-body" style="padding: 0;">
+						{{ content }}
+					</div>
+
 					<div class="panel-footer">
 						{% include html/pages.html %}
 					</div>
