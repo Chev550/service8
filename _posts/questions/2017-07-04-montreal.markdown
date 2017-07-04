@@ -7,3 +7,4 @@ tag:
 - Team Montreal
 ---
 
+Yes, you are required to submit your as-built drawings in both D-6 Final Construction Documentation and D-8 Jury Deliverables. D-6 is for Dezhou review and audit. D-8 is for jury review.
