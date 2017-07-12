@@ -4,7 +4,7 @@ title: "Regulations on Soil Disturbance"
 category: updates
 ---
 
-Teams are allowed to dig on your competition lot. The depth of soil disturbance shall meet the following requirements:
+Teams are allowed to dig on your competition lot for certain usages as listed below. The depth of soil disturbance shall meet the following requirements:
 
 - For water feature and water treatment, the depth of soil disturbance shall be no more than 0.5m;
 - For plantation and vegetation, the depth of soil disturbance shall be no more than 0.35m.
