@@ -14,10 +14,7 @@
 			</div>
 
 			<div class="col-sm-4">
-				{% if page.url contains "juries" %}
-				{% include html/info-jury.html %}
-
-				{% elsif page.url contains "teams/" %}
+				{% if page.url contains "teams/" %}
 				{% include html/info-team.html %}
 
 				{% else %}
