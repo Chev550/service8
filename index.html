@@ -1,25 +1,61 @@
 ---
-layout: default
+layout: wide
 title: "Team Service Center"
 ---
 
 {% include html/carousel.html %}
 
+<div class="row">
+	<div class="col-sm-8">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title"><span class="glyphicon glyphicon-bullhorn"></span> Announcements</h3>
+			</div>
 
-<div class="panel panel-default">
-	<div class="panel-heading">
-		<h3 class="panel-title"><span class="glyphicon glyphicon-bullhorn"></span> Official Announcements</h3>
+
+			<div class="list-group">
+				{% for post in site.categories.updates %}
+				<div class="list-group-item">
+					<span class="gray">{{ post.date | date_to_string }}</span>
+					<span class="label {% if post.label contains 'Due' or 'important' %}label-danger{% endif %}">{{ post.label }}</span>
+					<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 
-	
-	<div class="list-group">
-		{% for post in site.categories.updates %}
-		
-		<div class="list-group-item">
-			<span class="gray">{{ post.date | date_to_string }}</span>
-			<span class="label {% if post.label contains 'Due' or 'important' %}label-danger{% endif %}">{{ post.label }}</span>
-			<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+
+
+	<div class="col-sm-4">
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#updates" data-toggle="tab" aria-expanded="false">Updates</a></li>
+
+					<li><a href="#enquiry" data-toggle="tab" aria-expanded="false">Quick Enquiry</a></li>
+
+					<li><a href="#contact" data-toggle="tab" aria-expanded="false">Contact</a></li>
+				</ul>
+
+
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="updates">
+						<br>
+						{% include widgets/updates.html %}
+					</div>
+
+					<div class="tab-pane fade" id="enquiry">
+						<br>
+						{% include widgets/enquiry.html %}
+					</div>
+
+					<div class="tab-pane fade" id="contact">
+						<br>
+						{% include widgets/contact.html %}
+					</div>
+				</div>
+			</div>
 		</div>
-		{% endfor %}
 	</div>
 </div>
