@@ -1,19 +1,19 @@
 ---
-layout: default
+layout: wide
 ---
 
 
-<div class="list-group">
-	<div class="list-group-item">
+<div class="panel panel-default">
+	<div class="panel-heading">
 		<a href="{{ site.baseurl }}/pages/competition/juries.html">Juries</a> &raquo; {{ page.title }}
 	</div>
 
-	<div class="list-group-item">
+	<div class="panel-body">
 		<img class="pull-left juror-img" src="{{ site.baseurl }}/assets/img/{{ page.img }}.png">
 		{{ content }}
 	</div>
 
-	<div class="list-group-item">
+	<div class="panel-footer">
 		<p>Nominated by <i>{{ page.nominator }}</i> for Contest <strong>{{ page.group }}</strong>.</p>
 
 		<!-- LikeBtn.com BEGIN -->

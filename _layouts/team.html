@@ -1,19 +1,8 @@
 ---
-layout: default
+layout: wide
 ---
 
 <div class="panel panel-default">
-	<div class="panel-heading">
-		<a href="{{ site.baseurl }}/pages/competition/teams.html">Teams</a> &raquo; {{ page.title }}
-		<!--select class="pull-right" onchange="self.location.href=options[selectedIndex].value">
-			<option>- Teams -</option>
-			{% for team in site.teams %}
-			<option value="{{ site.baseurl }}/pages/teams/{{ team.abr }}.html">{{ team.num }} {{ team.name }}</option>
-			{% endfor %}
-		</select-->
-	</div>
-
-
 	<div id="myCarousel" class="carousel house slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
@@ -27,6 +16,7 @@ layout: default
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>{{ page.house }}</h1>
+						<img class="team-logo2" src="{{ site.baseurl }}/assets/teams/{{ page.abr }}/logo.png" alt="logo">
 						<p>{{ page.title }}</p>
 					</div>
 				</div>
@@ -50,5 +40,15 @@ layout: default
 		<div class="list-group-item">
 			{{ content }}
 		</div>
+	</div>
+
+	<div class="panel-footer">
+		<a href="{{ site.baseurl }}/pages/competition/teams.html">Teams</a> &raquo; {{ page.title }}
+		<!--select class="pull-right" onchange="self.location.href=options[selectedIndex].value">
+			<option>- Teams -</option>
+			{% for team in site.teams %}
+			<option value="{{ site.baseurl }}/pages/teams/{{ team.abr }}.html">{{ team.num }} {{ team.name }}</option>
+			{% endfor %}
+		</select-->
 	</div>
 </div>

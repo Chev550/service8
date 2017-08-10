@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wide
 ---
 
 <div class="panel panel-default">
@@ -14,13 +14,11 @@ layout: default
 		</select-->
 	</div>
 
-	<div class="list-group">
-		<div class="list-group-item">
-			{{ content }}
-		</div>
+	<div class="panel-body">
+		{{ content }}
+	</div>
 
-		<div class="list-group-item">
-			{% include html/pages.html %}
-		</div>
+	<div class="panel-footer">
+		{% include html/pages.html %}
 	</div>
 </div>

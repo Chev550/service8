@@ -1,4 +1,6 @@
-
+body {
+	background: #eee;
+}
 
 .gray {
 	color: gray;
@@ -181,8 +183,8 @@ a:hover path {
 	margin: 8px;
 }
 .team-logo2 {
-	max-width: 100%;
-	max-height: 200px;
+	max-width: 250px;
+	max-height: 80px;
 }
 
 

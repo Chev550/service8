@@ -71,14 +71,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Workshop <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li class="dropdown-header">January 13, 2017</li>
-							<li><a href="/pages/workshop/agenda2.html">Agenda</a></li>
-							<li><a href="/pages/workshop/talk.html">SDC Talk</a></li>
-							<li><a href="/pages/workshop/resource2.html">Training Materials</a></li>
-							
-							<li class="divider"></li>
-							<li class="dropdown-header">July 27, 2016</li>
-							<li><a href="/pages/workshop/resource1.html">Training Materials</a></li>
+							<li><a href="/pages/workshop/second.html">Workshop II</a></li>
+							<li><a href="/pages/workshop/first.html">Workshop I</a></li>
 						</ul>
 					</li>
 
@@ -108,10 +102,64 @@
 </header>
 
 
-		<div class="row">
-			<div class="col-sm-8">
-				<div class="panel panel-default">
-	<div class="panel-heading">
+		
+		<div class="panel panel-default">
+	<div id="myCarousel" class="carousel house slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+		</ol>
+
+		<!-- Slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active" style="background: url(/assets/teams/hku/dd_1.png) center center; background-size: cover;">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>S(L)OW House</h1>
+						<img class="team-logo2" src="/assets/teams/hku/logo.png" alt="logo">
+						<p>Team HKU</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!-- Nav -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<div class="list-group">
+		<div class="list-group-item">
+			<h4>House Description</h4>
+<p>
+	<a href="javascript:;" onclick="eng()">English</a> | 
+	<a href="javascript:;" onclick="chn()">中文</a>
+</p>
+
+<div id="eng">
+	<p>The Team HKU concept is conceived as a new courtyard house prototype, where design elements are calibrated for climate-specific and people-oriented needs. In this way, the project serves as a much-needed design research application of adaptive, comfortable, and environmentally-responsive housing strategies for an ever-evolving rural China. The main timber structure is prefabbed to reduce construction period and uncertainty of untrained workers, while the enclosed wall is in-situ made to keep the regional identity. The yard is covered by a glazed operable roof. The operable panel is tilted up for ventilation in hot summer, and enclosed to serve as sunlight room in cold winter. The yard space is turned into a thermal buffering zone to mediate the temperature and reduce the energy consumption.</p>
+
+	<p>The project target at the increasing “new farmer” in China. People who are willing to escape from the aggravating city and embrace the rural will be the possible consumer of the house. With more and more families willing to have their own vacation homes, the market for the project is huge.</p>
+	</div>
+
+<div id="chn" style="display:none;">
+	<p>香港大学队的设计概念，是以新型合院房屋作为设计原型，通过根据各地不同气候和用户使用需求调整具体的设计要素，来回应中国不断变化的广大农村地区的环境。设计采用主体木结构预制，围合墙体在地建造的建造方式，使项目在缩短工期和减少农村未经训练工人带来的不确定性的同时，体现出地域性的差别。通过在中间院子顶部加建可开合的玻璃顶，使其夏天是院子，冬天成为阳光房。中间的院子作为一个热缓冲空间，能有效降低能耗，增加使用舒适性。</p>
+
+	<p>项目定位于中国逐渐壮大的“新农民”群体。日益恶化的城市生活环境和田园梦的复苏，让乡村度假市场不断升温。越来越多希望逃离城市，在宁静美丽的乡下拥有独立度假房屋的家庭为项目提供了广阔的市场。</p>
+</div>
+		</div>
+	</div>
+
+	<div class="panel-footer">
 		<a href="/pages/competition/teams.html">Teams</a> &raquo; Team HKU
 		<!--select class="pull-right" onchange="self.location.href=options[selectedIndex].value">
 			<option>- Teams -</option>
@@ -162,80 +210,7 @@
 			
 		</select-->
 	</div>
-
-
-	<div id="myCarousel" class="carousel house slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-
-		</ol>
-
-		<!-- Slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active" style="background: url(/assets/teams/hku/dd_1.png) center center; background-size: cover;">
-				<div class="container">
-					<div class="carousel-caption">
-						<h1>S(L)OW House</h1>
-						<p>Team HKU</p>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-		<!-- Nav -->
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-
-	<div class="list-group">
-		<div class="list-group-item">
-			<h4>House Description</h4>
-<p>
-	<a href="javascript:;" onclick="eng()">English</a> | 
-	<a href="javascript:;" onclick="chn()">中文</a>
-</p>
-
-<div id="eng">
-	<p>The Team HKU concept is conceived as a new courtyard house prototype, where design elements are calibrated for climate-specific and people-oriented needs. In this way, the project serves as a much-needed design research application of adaptive, comfortable, and environmentally-responsive housing strategies for an ever-evolving rural China. The main timber structure is prefabbed to reduce construction period and uncertainty of untrained workers, while the enclosed wall is in-situ made to keep the regional identity. The yard is covered by a glazed operable roof. The operable panel is tilted up for ventilation in hot summer, and enclosed to serve as sunlight room in cold winter. The yard space is turned into a thermal buffering zone to mediate the temperature and reduce the energy consumption.</p>
-
-	<p>The project target at the increasing “new farmer” in China. People who are willing to escape from the aggravating city and embrace the rural will be the possible consumer of the house. With more and more families willing to have their own vacation homes, the market for the project is huge.</p>
-	</div>
-
-<div id="chn" style="display:none;">
-	<p>香港大学队的设计概念，是以新型合院房屋作为设计原型，通过根据各地不同气候和用户使用需求调整具体的设计要素，来回应中国不断变化的广大农村地区的环境。设计采用主体木结构预制，围合墙体在地建造的建造方式，使项目在缩短工期和减少农村未经训练工人带来的不确定性的同时，体现出地域性的差别。通过在中间院子顶部加建可开合的玻璃顶，使其夏天是院子，冬天成为阳光房。中间的院子作为一个热缓冲空间，能有效降低能耗，增加使用舒适性。</p>
-
-	<p>项目定位于中国逐渐壮大的“新农民”群体。日益恶化的城市生活环境和田园梦的复苏，让乡村度假市场不断升温。越来越多希望逃离城市，在宁静美丽的乡下拥有独立度假房屋的家庭为项目提供了广阔的市场。</p>
 </div>
-		</div>
-	</div>
-</div>
-			</div>
-
-			<div class="col-sm-4">
-				
-				<div class="panel panel-default">
-	<div class="panel-body center">
-		<img class="team-logo2" src="/assets/teams/hku/logo.png" alt="logo">
-	</div>
-</div>
-
-<div class="well">
-	<h2>Score:</h2>
-	<h2>Rank:</h2>
-</div>
-
-				
-			</div>
-		</div>
 	</div>
 
 
