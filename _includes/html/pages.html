@@ -22,13 +22,13 @@
 
 
 {% if next_post %}
-<a class="btn btn-xs btn-primary" href="{{ site.baseurl }}{{ next_post.url }}" class="prev">
-	‹ Previous
-</a>
+<a class="btn btn-xs btn-default" href="{{ site.baseurl }}{{ next_post.url }}" class="prev">‹ Previous</a>
+{% else %}
+<span class="btn btn-xs btn-default disabled">‹ Prev</span>
 {% endif %}
 
 {% if prev_post %}
-<a class="btn btn-xs btn-primary" href="{{ site.baseurl }}{{ prev_post.url }}" class="next">
-	Next ›
-</a>
+<a class="btn btn-xs btn-default pull-right" href="{{ site.baseurl }}{{ prev_post.url }}" class="next">Next ›</a>
+{% else %}
+<span class="btn btn-xs btn-default disabled pull-right">Next ›</span>
 {% endif %}

@@ -14,17 +14,16 @@ title: "Team Service Center"
 
 
 			<div class="list-group">
-				{% for post in site.categories.updates limit:5 %}
+				{% for post in site.categories.announcements limit:5 %}
 				<div class="list-group-item">
-					<span class="gray">{{ post.date | date_to_string }}</span>
-					<span class="label {% if post.label contains 'Due' or 'important' %}label-danger{% endif %}">{{ post.label }}</span>
+					<span class="gray small">{{ post.date | date_to_string }}</span>
 					<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 				</div>
 				{% endfor %}
 			</div>
 
 			<div class="panel-footer">
-				<a class="btn btn-default btn-xs" href="">View all announcements ››</a>
+				<a class="btn btn-default btn-xs" href="">View all announcements &raquo;</a>
 			</div>
 		</div>
 	</div>
