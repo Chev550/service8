@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "Solar Decathlon China Global Launching Ceremony Guest Greetings"
-category: videos
+category: news
 ---
 
 Solar Decathlon China Global Launching Ceremony Guest Greetings.

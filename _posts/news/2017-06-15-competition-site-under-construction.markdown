@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "Competition Site under Construction"
-category: videos
+category: news
 ---
 
 Competition Site under Construction.

@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "Team Shunya"
-category: videos
+category: news
 ---
 
 Jury Nomination Closed.

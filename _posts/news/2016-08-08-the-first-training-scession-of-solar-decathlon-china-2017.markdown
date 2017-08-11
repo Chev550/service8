@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "The First Training Session of Solar Decathlon China"
-category: videos
+category: news
 ---
 
 The First Training Session of Solar Decathlon China.
