@@ -14,13 +14,17 @@ title: "Team Service Center"
 
 
 			<div class="list-group">
-				{% for post in site.categories.updates %}
+				{% for post in site.categories.updates limit:5 %}
 				<div class="list-group-item">
 					<span class="gray">{{ post.date | date_to_string }}</span>
 					<span class="label {% if post.label contains 'Due' or 'important' %}label-danger{% endif %}">{{ post.label }}</span>
 					<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 				</div>
 				{% endfor %}
+			</div>
+
+			<div class="panel-footer">
+				<a class="btn btn-default btn-xs" href="">View all announcements ››</a>
 			</div>
 		</div>
 	</div>
@@ -31,11 +35,11 @@ title: "Team Service Center"
 		<div class="panel panel-default">
 			<div class="panel-body">
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#updates" data-toggle="tab" aria-expanded="false">Updates</a></li>
+					<li class="active"><a href="#updates" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span> News</a></li>
 
-					<li><a href="#enquiry" data-toggle="tab" aria-expanded="false">Quick Enquiry</a></li>
+					<li><a href="#enquiry" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> Enquiry</a></li>
 
-					<li><a href="#contact" data-toggle="tab" aria-expanded="false">Contact</a></li>
+					<li><a href="#contact" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
 				</ul>
 
 
