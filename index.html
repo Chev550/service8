@@ -14,7 +14,7 @@ title: "Team Service Center"
 
 
 			<div class="list-group">
-				{% for post in site.categories.announcements limit:5 %}
+				{% for post in site.categories.announcements limit:10 %}
 				<div class="list-group-item">
 					<span class="gray small">{{ post.date | date_to_string }}</span>
 					<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
@@ -23,7 +23,7 @@ title: "Team Service Center"
 			</div>
 
 			<div class="panel-footer">
-				<a class="btn btn-default btn-xs" href="{{ site.baseurl }}/pages/announcements.html">View all announcements &raquo;</a>
+				<a class="btn btn-default btn-xs" href="{{ site.baseurl }}/pages/announcements.html">View all &raquo;</a>
 			</div>
 		</div>
 	</div>
@@ -31,33 +31,29 @@ title: "Team Service Center"
 
 
 	<div class="col-sm-4">
-		<div class="panel panel-default">
-			<div class="panel-body">
-				<ul class="nav nav-tabs">
-					<li class="active"><a href="#news" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span> News</a></li>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#news" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span> News</a></li>
 
-					<li><a href="#enquiry" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> Enquiry</a></li>
+			<li><a href="#enquiry" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> Enquiry</a></li>
 
-					<li><a href="#contact" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-				</ul>
+			<li><a href="#contact" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+		</ul>
 
 
-				<div id="myTabContent" class="tab-content">
-					<div class="tab-pane fade active in" id="news">
-						<br>
-						{% include widgets/news.html %}
-					</div>
+		<div id="myTabContent" class="tab-content">
+			<div class="tab-pane fade active in" id="news">
+				<br>
+				{% include widgets/news.html %}
+			</div>
 
-					<div class="tab-pane fade" id="enquiry">
-						<br>
-						{% include widgets/enquiry.html %}
-					</div>
+			<div class="tab-pane fade" id="enquiry">
+				<br>
+				{% include widgets/enquiry.html %}
+			</div>
 
-					<div class="tab-pane fade" id="contact">
-						<br>
-						{% include widgets/contact.html %}
-					</div>
-				</div>
+			<div class="tab-pane fade" id="contact">
+				<br>
+				{% include widgets/contact.html %}
 			</div>
 		</div>
 	</div>

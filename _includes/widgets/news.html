@@ -1,11 +1,14 @@
+<div class="panel panel-default">
 <div class="list-group">
+	{% for post in site.categories.videos limit:3 %}
 	<div class="list-group-item">
-		<p class="gray">31 Jul 2017</p>
-		Jury Nomination Closed.
+		<p class="gray small">{{ post.date | date_to_string }}</p>
+		<p>{{ post.content }}</p>
 	</div>
+	{% endfor %}
+</div>
 
-	<div class="list-group-item">
-		<p class="gray">04 May 2017</p>
-		The most updated CAD files for competition site masterplan, water and electric plans are available for <a href="{{ site.baseurl }}/pages/downloads.html">downloading</a>. Check them out!
-	</div>
+<div class="panel-footer">
+	<a class="btn btn-default btn-xs" href="{{ site.baseurl }}/pages/announcements.html">View all &raquo;</a>
+</div>
 </div>
