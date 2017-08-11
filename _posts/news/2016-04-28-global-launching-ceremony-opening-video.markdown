@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: post
 title: "Solar Decathlon China Global Launching Ceremony Opening Video"
 category: news
 ---

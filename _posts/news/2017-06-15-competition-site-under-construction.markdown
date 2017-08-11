@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: post
 title: "Competition Site under Construction"
 category: news
 ---

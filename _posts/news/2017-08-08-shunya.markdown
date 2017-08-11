@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: post
 title: "Team Shunya"
 category: news
 ---

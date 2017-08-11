@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: post
 title: "The First Training Session of Solar Decathlon China"
 category: news
 ---
