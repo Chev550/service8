@@ -1,0 +1,19 @@
+---
+layout: wide
+title: "Announcements"
+---
+
+<div class="panel panel-default">
+	<div class="panel-body">
+		<h3 class="center"><span class="glyphicon glyphicon-bullhorn"></span> {{ page.title }}</h3>
+	</div>
+</div>
+
+<div class="list-group">
+	{% for post in site.categories.announcements %}
+	<a class="list-group-item" href="{{ site.baseurl }}{{ post.url }}">
+		<span class="gray small">[ {{ post.date | date_to_string }} ]</span>
+		{{ post.title }}
+	</a>
+	{% endfor %}
+</div>
