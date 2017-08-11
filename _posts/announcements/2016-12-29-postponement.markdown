@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notification of Postponement"
-category: updates
+category: announcements
 ---
 
 Dear Teams,

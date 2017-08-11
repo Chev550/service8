@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Call for Jury Committee Nominations"
-category: updates
+category: announcements
 ---
 
 Beginning on `June 6th` and extending through `July 30th`, Solar Decathlon China (SDC) is requesting nominations for Jury Committee members. This call for nominations is for five [juried contests]({{ site.baseurl }}/pages/competition/contests.html):

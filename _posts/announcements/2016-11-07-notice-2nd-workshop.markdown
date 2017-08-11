@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notice for the Second SDC 2017 Technical Training Workshop"
-category: updates
+category: announcements
 ---
 
 The second SDC 2017 Technical Training Workshop will be hold from `January 13th to 15th, 2017` in Dezhou. Since it is close to Chinese New Year travel rush, flight/train tickets are expected to be difficult to get by then. We kindly suggest teams to arrange your trips and book your tickets as early as possible.

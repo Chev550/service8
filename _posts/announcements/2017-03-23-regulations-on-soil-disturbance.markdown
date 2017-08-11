@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Regulations on Soil Disturbance"
-category: updates
+category: announcements
 ---
 
 Teams are allowed to dig on your competition lot for certain usages as listed below. The depth of soil disturbance shall meet the following requirements:

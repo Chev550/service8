@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "RULES V2.0 Released"
-category: updates
-label: Important
+category: announcements
 ---
 
 #### Download

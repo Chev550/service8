@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RULES V2.0 Errata"
-category: updates
+category: announcements
 ---
 
 ##### Rule 8-2. Batteries
