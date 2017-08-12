@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Requesting for Teams' Sponsor Information"
+title: "Request for Teams' Sponsor Information"
 category: announcements
 ---
 
