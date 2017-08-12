@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Team Shunya"
+title: "Jury Nomination Closed"
 category: news
 ---
 
-Jury Nomination Closed.
+Jury nomination closed.
