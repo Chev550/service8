@@ -214,3 +214,37 @@ a:hover path {
 	padding-left: 0.5em;
 	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* countdown -------------------------------------------------- */
+#clockdiv > div {
+	padding: 10px;
+	border-radius: 3px;
+	background: #d9edf7;
+	display: inline-block;
+	color: #31708f;
+	border: 1px solid #bce8f1;
+	margin-bottom: 3px;
+}
+
+#clockdiv div > span{
+	padding: 0.7em;
+	border-radius: 3px;
+	background: #afd9ee;
+	display: inline-block;
+	margin-bottom: 0.5em;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	font-family: 'Arial Black';
+}

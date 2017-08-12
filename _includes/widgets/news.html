@@ -1,5 +1,9 @@
 <div class="panel panel-default">
 	<div class="list-group">
+		<div class="list-group-item">
+			{% include widgets/countdown.html %}
+		</div>
+
 		{% for post in site.categories.news limit:3 %}
 		<div class="list-group-item">
 			<p class="gray small">{{ post.date | date_to_string }}</p>

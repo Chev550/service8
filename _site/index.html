@@ -37,7 +37,7 @@
 
 </head>
 
-<body>
+<body onload="countdown()">
 	<div class="container clearance">
 		<header>
 	<!-- Static navbar -->
@@ -96,8 +96,6 @@
 	<!--/.nav-collapse -->
 </header>
 
-
-		
 		<!-- Carousel
 	================================================== -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -202,81 +200,182 @@
 	</div>
 <!-- /.carousel -->
 
-<div class="row">
-	<div class="col-sm-8">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 class="panel-title"><span class="glyphicon glyphicon-bullhorn"></span> Announcements</h3>
-			</div>
-
-
-			<div class="list-group">
-				
-				<div class="list-group-item">
-					<span class="gray small">07 Aug 2017</span>
-					<h4><a href="/announcements/2017/08/07/request-for-teams-sponsor-information.html">Request for Teams' Sponsor Information</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">06 Jun 2017</span>
-					<h4><a href="/announcements/2017/06/06/call-for-nomination.html">Call for Jury Committee Nominations</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">23 Mar 2017</span>
-					<h4><a href="/announcements/2017/03/23/regulations-on-soil-disturbance.html">Regulations on Soil Disturbance</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">29 Dec 2016</span>
-					<h4><a href="/announcements/2016/12/29/postponement.html">Notification of Postponement</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">07 Nov 2016</span>
-					<h4><a href="/announcements/2016/11/07/notice-2nd-workshop.html">Notice for the Second SDC 2017 Technical Training Workshop</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">04 Nov 2016</span>
-					<h4><a href="/announcements/2016/11/04/building-code-v2-0-released.html">Building Code V2.0 Released</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">19 Oct 2016</span>
-					<h4><a href="/announcements/2016/10/19/rules-v2-0-errata.html">RULES V2.0 Errata</a></h4>
-				</div>
-				
-				<div class="list-group-item">
-					<span class="gray small">13 Sep 2016</span>
-					<h4><a href="/announcements/2016/09/13/rules-v2-0-released.html">RULES V2.0 Released</a></h4>
-				</div>
-				
-			</div>
-
-			<div class="panel-footer">
-				<a class="btn btn-default btn-xs" href="/pages/announcements.html">View all &raquo;</a>
-			</div>
-		</div>
-	</div>
-
-
-
-	<div class="col-sm-4">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#news" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span> News</a></li>
-
-			<li><a href="#enquiry" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> Enquiry</a></li>
-
-			<li><a href="#contact" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-		</ul>
-
-
-		<div id="myTabContent" class="tab-content">
-			<div class="tab-pane fade active in" id="news">
-				<br>
+		<div class="row">
+			<div class="col-sm-8">
 				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><span class="glyphicon glyphicon-bullhorn"></span> Announcements</h3>
+					</div>
+
+
+					<div class="list-group">
+						
+						<div class="list-group-item">
+							<span class="gray small">07 Aug 2017</span>
+							<h4><a href="/announcements/2017/08/07/request-for-teams-sponsor-information.html">Request for Teams' Sponsor Information</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">06 Jun 2017</span>
+							<h4><a href="/announcements/2017/06/06/call-for-nomination.html">Call for Jury Committee Nominations</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">23 Mar 2017</span>
+							<h4><a href="/announcements/2017/03/23/regulations-on-soil-disturbance.html">Regulations on Soil Disturbance</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">29 Dec 2016</span>
+							<h4><a href="/announcements/2016/12/29/postponement.html">Notification of Postponement</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">07 Nov 2016</span>
+							<h4><a href="/announcements/2016/11/07/notice-2nd-workshop.html">Notice for the Second SDC 2017 Technical Training Workshop</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">04 Nov 2016</span>
+							<h4><a href="/announcements/2016/11/04/building-code-v2-0-released.html">Building Code V2.0 Released</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">19 Oct 2016</span>
+							<h4><a href="/announcements/2016/10/19/rules-v2-0-errata.html">RULES V2.0 Errata</a></h4>
+						</div>
+						
+						<div class="list-group-item">
+							<span class="gray small">13 Sep 2016</span>
+							<h4><a href="/announcements/2016/09/13/rules-v2-0-released.html">RULES V2.0 Released</a></h4>
+						</div>
+						
+					</div>
+
+					<div class="panel-footer">
+						<a class="btn btn-default btn-xs" href="/pages/announcements.html">View all &raquo;</a>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="col-sm-4">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#news" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span> News</a></li>
+
+					<li><a href="#enquiry" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> Enquiry</a></li>
+
+					<li><a href="#contact" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+				</ul>
+
+
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="news">
+						<br>
+						<div class="panel panel-default">
 	<div class="list-group">
+		<div class="list-group-item">
+			<p id="today" class="small gray"></p>
+
+<div id="clockdiv" class="center">
+	<div>
+		<span class="days" id="day"></span>
+		<div class="small">Days</div>
+	</div>
+	<div>
+		<span class="hours" id="hour"></span>
+		<div class="small">Hours</div>
+	</div>
+	<div>
+		<span class="minutes" id="minute"></span>
+		<div class="small">Minutes</div>
+	</div>
+	<div>
+		<span class="seconds" id="second"></span>
+		<div class="small">Seconds</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+function countdown () {
+	Today = new Date();
+	var NowHour = Today.getHours();
+	var NowMinute = Today.getMinutes();
+	var NowMonth = Today.getMonth();
+	var NowDate = Today.getDate();
+	var NowYear = Today.getYear();
+	var NowSecond = Today.getSeconds();
+
+	Monthleft = 11 - NowMonth;	
+	Secondleft = 59 - NowSecond;
+	Minuteleft = 59 - NowMinute;
+	Hourleft = 23 - NowHour;
+
+// Current calculation is based on the assumption that 02 Aug 2018 is the opening ceremony date.
+	switch (NowMonth) {
+		case 0:
+		Dateleft = 31 - NowDate + 181 + 1;
+		break;
+
+		case 1:
+		Dateleft = 28 - NowDate + 153 + 1;
+		break;
+
+		case 2:
+		Dateleft = 31 - NowDate + 122 + 1;
+		break;
+
+		case 3:
+		Dateleft = 30 - NowDate + 92 + 1;
+		break;
+
+		case 4:
+		Dateleft = 31 - NowDate + 61 + 1;
+		break;
+
+		case 5:
+		Dateleft = 30 - NowDate + 31 + 1;
+		break;
+
+		case 6:
+		Dateleft = 31 - NowDate + 1;
+		break;
+
+		case 7:
+		Dateleft = 31 - NowDate + 334 + 1;
+		break;
+
+		case 8:
+		Dateleft = 30 - NowDate + 304 + 1;
+		break;
+
+		case 9:
+		Dateleft = 31 - NowDate + 273 + 1;
+		break;
+
+		case 10:
+		Dateleft = 30 - NowDate + 243 + 1;
+		break;
+
+		case 11:
+		Dateleft = 31 - NowDate + 212 + 1;
+		break;
+	}
+
+
+	document.getElementById("today").innerHTML = Today.toLocaleDateString() + ' Countdown to Solar Decathlon China 2018';
+	document.getElementById("day").innerHTML = Dateleft;
+	document.getElementById("hour").innerHTML = Hourleft;
+	document.getElementById("minute").innerHTML = Minuteleft;
+	document.getElementById("second").innerHTML = Secondleft;
+
+	setTimeout("countdown()",1000);
+}
+</script>
+		</div>
+
 		
 		<div class="list-group-item">
 			<p class="gray small">08 Aug 2017</p>
@@ -287,16 +386,14 @@
 		</div>
 		
 		<div class="list-group-item">
-			<p class="gray small">31 Jul 2017</p>
-			<p><p>Jury Nomination Closed.</p>
+			<p class="gray small">02 Aug 2017</p>
+			<p><p>One year countdown to Solar Decathlon China 2018 starts today!</p>
 </p>
 		</div>
 		
 		<div class="list-group-item">
-			<p class="gray small">15 Jun 2017</p>
-			<p><p>Competition Site under Construction.</p>
-
-<iframe frameborder="0" width="100%" height="auto" src="https://v.qq.com/iframe/player.html?vid=x0514hggsb6&amp;tiny=0&amp;auto=0" allowfullscreen=""></iframe>
+			<p class="gray small">31 Jul 2017</p>
+			<p><p>Jury Nomination Closed.</p>
 </p>
 		</div>
 		
@@ -306,11 +403,11 @@
 		<a class="btn btn-default btn-xs" href="/pages/news.html">View all &raquo;</a>
 	</div>
 </div>
-			</div>
+					</div>
 
-			<div class="tab-pane fade" id="enquiry">
-				<br>
-				<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+					<div class="tab-pane fade" id="enquiry">
+						<br>
+						<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
 
 	<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' />
 
@@ -335,11 +432,11 @@
 	<button type="submit" class="btn btn-sm btn-primary btn-block">Send</button>
 </form>
 
-			</div>
+					</div>
 
-			<div class="tab-pane fade" id="contact">
-				<br>
-				<p class="center">
+					<div class="tab-pane fade" id="contact">
+						<br>
+						<p class="center">
 	<a class="btn btn-sm btn-primary btn-block" href="mailto:support@sdchina.org.cn"><span class="glyphicon glyphicon-inbox"></span> support@sdchina.org.cn</a>
 </p>
 
@@ -352,13 +449,11 @@
 	</div>
 </div>
 
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
-	</div>
-
 
 	<footer>
 	<span>&copy;</span>
@@ -386,3 +481,4 @@ alt="shopify analytics"></a></div></noscript>
 </footer>
 </body>
 </html>
+
