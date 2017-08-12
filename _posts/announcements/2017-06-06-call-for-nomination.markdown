@@ -4,6 +4,8 @@ title: "Call for Jury Committee Nominations"
 category: announcements
 ---
 
+Teams,
+
 Beginning on `June 6th` and extending through `July 30th`, Solar Decathlon China (SDC) is requesting nominations for Jury Committee members. This call for nominations is for five [juried contests]({{ site.baseurl }}/pages/competition/contests.html):
 
 - Architecture
@@ -22,3 +24,7 @@ A qualified candidate shall be an influential expert in contest-related field, a
 Each team can nominate up to `two` jury candidates, who shall be in different contest groups. All nominees will be posted on Team Service Center >> Competition >> [Juries]({{ site.baseurl }}/pages/competition/juries.html). Please feel free to vote for your favorite ones. Final juries will be determined by the Organizing Committee based on nominees' qulification, availability, popularity; and by leveraging field, nationality, gender, etc. Each contest will have `five` juries on panel.
 
 If you are interested in nominating a candidate, please fill out and submit the application form [here]({{ site.baseurl }}/pages/competition/juries.html). The nomination process will be closed on `30 Jul 2017`.
+
+Sincerely,
+
+Organizing Committee
