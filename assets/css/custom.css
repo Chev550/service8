@@ -218,16 +218,8 @@ a:hover path {
 
 
 
-
-
-
-
-
-
-
-
 /* countdown -------------------------------------------------- */
-#clockdiv > div {
+#countdowndiv > div {
 	padding: 10px;
 	border-radius: 3px;
 	background: #d9edf7;
@@ -237,7 +229,7 @@ a:hover path {
 	margin-bottom: 3px;
 }
 
-#clockdiv div > span{
+#countdowndiv div > span{
 	padding: 0.7em;
 	border-radius: 3px;
 	background: #afd9ee;

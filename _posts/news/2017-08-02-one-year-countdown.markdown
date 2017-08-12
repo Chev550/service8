@@ -4,4 +4,8 @@ title: "One Year Countdown"
 category: news
 ---
 
-One year countdown to Solar Decathlon China 2018 starts today!
+<div class="alert alert-warning center">
+	<h4>1 Year Countdown</h4>
+	<h3>Solar Decathlon China</h3>
+	Dezhou 2018
+</div>
