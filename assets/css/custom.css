@@ -13,7 +13,9 @@ ul.no-style {
 	margin: 0;
 	padding: 0;
 }
-
+.img-width {
+	max-width: 100%;
+}
 
 
 .clearance {

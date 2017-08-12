@@ -23,12 +23,12 @@ function onBlur(x){
 
 // Scroll to show toTop
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-        $('#toTop').fadeIn("fast");
-    } 
-    else {
-        $('#toTop').fadeOut("fast");
-    }
+	if ($(this).scrollTop() > 100) {
+		$('#toTop').fadeIn("fast");
+	} 
+	else {
+		$('#toTop').fadeOut("fast");
+	}
 });
 
 
