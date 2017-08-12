@@ -4,6 +4,8 @@ title: "Notice for the Second SDC 2017 Technical Training Workshop"
 category: announcements
 ---
 
+Teams,
+
 The second SDC 2017 Technical Training Workshop will be hold from `January 13th to 15th, 2017` in Dezhou. Since it is close to Chinese New Year travel rush, flight/train tickets are expected to be difficult to get by then. We kindly suggest teams to arrange your trips and book your tickets as early as possible.
 
 #### Participants
@@ -17,11 +19,25 @@ Teams may attend the workshop in two ways:
 1. Arrive in `Beijing` on `12 Jan 2017` and leave for Dezhou by shuttle on January 13th. Beijing Jiaotong University will host teams for one night on 12th, and the cost of accommodation and shuttles will be covered by SDC Committee.
 2. Arrive in `Dezhou` directly on `13 Jan 2017`.
 
-Teams can select either way to come, and please notify the organizing committee in advance by filling out <a href="{{ site.baseurl }}/assets/doc/2016-11-07-appendix-1.xlsx" target="_blank">Appendix 1</a> as completely as possible by `30 Nov 2016`. Undetermined information (for instance, flight/train numbers, etc.) can be provided later, but please make sure that the way of arrival and the number of participants shall be submitted on time.
+Teams can select either way to come, and please notify the organizing committee in advance by filling out [Appendix 1](#file) as completely as possible by `30 Nov 2016`. Undetermined information (for instance, flight/train numbers, etc.) can be provided later, but please make sure that the way of arrival and the number of participants shall be submitted on time.
 
 #### Scale Model
 
-Your 3D house model shall be mailed to Dezhou directly. The mailing address is provided <a href="{{ site.baseurl }}/pages/submission_sm.html">here</a>. The 3D model will be open to the public during the second training workshop. Please provide the organizing committee a brief introduction of your house (see <a href="{{ site.baseurl }}/assets/doc/2016-11-07-appendix-2.docx" target="_blank">Appendix 2</a>) by `12 Dec 2016`. Up to 5 renderings of your updated design shall also be submitted by this deadline.
+Your 3D house model shall be mailed to Dezhou directly. The mailing address is:
+
+~~~
+Address: No.368, Kangbo Avenue, Dezhou City, Shandong Province, P.R.CHINA
+Postcode: 253077
+Receiver: Shufu Chen
+Tel: +86 137-9135-9620
+
+地址：山东省德州市康博大道368号
+邮编：253077
+收件人：陈述福
+电话：+86 137-9135-9620
+~~~
+
+The 3D model will be open to the public during the second training workshop. Please provide the organizing committee a brief introduction of your house (see [Appendix 2](#file)) by `12 Dec 2016`. Up to 5 renderings of your updated design shall also be submitted by this deadline.
 
 Each team will be introducing your house model to the audience and media in 3 to 5 minutes.
 
@@ -78,3 +94,15 @@ Each team will be introducing your house model to the audience and media in 3 to
 		</tr>
 	</tbody>
 </table>
+
+---
+
+<a name="file"></a>
+<a class="file" href="{{ site.baseurl }}/assets/doc/2016-11-07-appendix-1.xlsx" target="_blank">
+	<img src="{{ site.baseurl }}/assets/img/xlsx_64.png"><br>
+	Appendix 1
+</a>
+<a class="file" href="{{ site.baseurl }}/assets/doc/2016-11-07-appendix-2.docx" target="_blank">
+	<img src="{{ site.baseurl }}/assets/img/docx_64.png"><br>
+	Appendix 2
+</a>
