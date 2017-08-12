@@ -1,5 +1,6 @@
 body {
 	background: #eee;
+	padding-top: 20px;
 }
 
 .gray {
@@ -18,9 +19,7 @@ ul.no-style {
 }
 
 
-.clearance {
-	margin-top: 20px;
-}
+
 .margin-bottom-0 {
 	margin-bottom: 0;
 }
