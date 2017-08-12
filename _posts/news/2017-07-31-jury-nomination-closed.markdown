@@ -4,4 +4,4 @@ title: "Jury Nomination Closed"
 category: news
 ---
 
-Jury nomination closed.
+##### Jury nomination closed.
