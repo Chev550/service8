@@ -71,4 +71,6 @@ The structural submission shall represent a complete structural design, includin
 
 ---
 
+#### Delivery Method
+
 Files shall be submitted to <a href="mailto:support@sdchina.org.cn">support@sdchina.org.cn</a> or shared via Dropbox/百度网盘.
